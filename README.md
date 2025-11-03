@@ -11,6 +11,7 @@ MSI captures unique reflectance patterns across wavelengths and has strong poten
 
 - Tested several RGB-based models, including the Segment Anything Model(SAM) and a pretrained UNet that used three-channel pseudo-RGB composites derived from PCA.
 - Overfitted YOLO11 Segmentation Model to see the feasibility.
+- Annoted 50 Blueberry field RGB images.
 
 ---
 
