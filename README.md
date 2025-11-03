@@ -1,18 +1,16 @@
-# Multispectral Image Segmentation of Blueberry Genotypes
+# Multispectral Image(MSI) Segmentation of Blueberry Genotypes
 
-MSI captures unique reflectance patterns across wavelengths and has strong potential for early detection of
-crop stress and disease. Our goal was to segment blueberry genotypes from drone images captured by a
-MicaSense camera to support expert field analysis.
+MSI captures unique reflectance patterns across wavelengths and has strong potential for early detection of crop stress and disease. Our goal is to segment blueberry genotypes from drone images captured by a MicaSense camera to support expert field analysis.
 <p align="center">
   <img src="images/tells_more.png" alt="Example" width="60%">
 </p>
+
 ---
 
 ## 📌 Overview
 
-- Tested several RGB-based models, including the Segment Anything Model and a pretrained UNet that used three-channel pseudo-RGB composites
-derived from PCA
-- Overfitted YOLO11 Segmentation Model to see the feasibility
+- Tested several RGB-based models, including the Segment Anything Model(SAM) and a pretrained UNet that used three-channel pseudo-RGB composites derived from PCA.
+- Overfitted YOLO11 Segmentation Model to see the feasibility.
 
 ---
 
